@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #1D2B53;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-shadow: 3px 3px 3px #00000075;
+    margin: 50px;
+}
+
+#calculadora {
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 400px;
+    height: 647px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 24px;
+    box-shadow: 5px 5px 5px rgba(46, 41, 41, 0.5);
+    border: 1px solid #DD5746;
+}
+
+input {
+    border: none;
+    background-color: #cac9d4;
+    grid-column: 1/5;
+    margin: 0 auto;
+    -moz-box-align: center;
+    width: 300px;
+    height: 60px;
+    border-radius: 24px;
+    font-size: 52px;
+    text-align: right;
+    box-shadow: 3px 3px 3px rgba(46, 41, 41, 0.5),
+    3px 3px 3px rgb(153, 147, 147) inset;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 2px;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+
+.btontes {
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    padding: 10px;
+    font-size: 24px;
+    font-family: Impact;
+    color: #1C1678;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    box-shadow: 3px 3px 3px rgba(83, 74, 74, 0.5),
+    3px 3px 3px rgb(153, 147, 147) inset;
+}
+
+.btn-igual{
+    grid-column: 3/5;
+    background-color: #E2ADCB;
+}
+
+.btontes:hover{
+    background-color:#A3FFD6 ;
+    transition: 0.2s;
+    /* box-shadow: 3px 3px 5px rgba(46, 41, 41, 0.5),
+    5px 5px 5px  rgba(197, 197, 196, 0.712) inset; */
+}
+
+.simbols{
+    font-size: 38px;
+}
+
+

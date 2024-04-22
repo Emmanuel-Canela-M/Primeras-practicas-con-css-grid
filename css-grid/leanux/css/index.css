@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'Baloo';
+    src: url('/fonts/BalooBhaijaan-Regular.ttf') format('woff2');
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('/fonts/Poppins/Poppins-MediumItalic.ttf') format('woff2');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2D4356;
+}
+
+.header-sec1 {
+    margin: 30px 180px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 20px;
+}
+
+h1 {
+    color: #FFBFA9;
+    font-size: 32px;
+    font-family: 'Baloo';
+    text-align: center;
+}
+
+.head_ {
+    grid-column: 2/6;
+    font-size: 20px;
+    
+}
+
+.p_head {
+    grid-column: 2/6;
+    text-align: justify;
+    border: 1px solid #ff7c44;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 5px;
+    display: grid;
+    color: white;
+}
+
+#sec_main {
+    margin: 0 32px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.sec-art {
+    margin: 20px;
+    padding: 40px;
+    border-radius: 16px;
+    color: #704A37;
+    background-color: #FDE8D7;
+    border: 1px solid #ff7c44;
+}
+
+.sec-art:hover {
+    background-color: #DCFFB7;
+    color: black;
+    transition: 0.3s;
+    border: 1px solid #45FFCA;
+    box-shadow: 5px 5px 10px rgba(190, 164, 164, 0.5);
+}
+
+.p_art {
+    text-align: center;
+}
+
+i {
+    line-height: 1.5;
+    font-family: 'poppins';
+    text-align: left;
+}
+
+.p_i {
+    margin: 5px 0 20px 0;
+
+}
+
+li {
+    text-align: justify;
+    font-size: 16px;
+    font-family: 'poppins';
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Baloo';
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+.soluciones {
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+.importante {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.sec-7 {
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.hipotesis-1 {
+    font-size: 14px;
+    font-family: 'poppins';
+    grid-column: 1/2;
+}
+
+.hipotesis-2 {
+    font-size: 14px;
+    font-family: 'poppins';
+    grid-column: 2/3;
+}
+
+.hipotesis {
+    background-color: #7A4630;
+    color: white;
+    text-align: justify;
+    margin: 0 0 0 10px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #344955;
+}
+
+.p_footer {
+    color: white;
+    font-size: 24px;
+    font-family: 'poppins';
+}

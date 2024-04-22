@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 22px;
+    line-height: 2;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    max-width: 960px;
+    margin: 100px auto;
+    background-color: rgb(103, 103, 143);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.parte {
+    background-color: #5faab1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    border-radius: 8px;
+    padding: 22px;
+    border: 2px solid rgb(230, 198, 198);
+}
+
+.parte:hover {
+    color: black;
+}
