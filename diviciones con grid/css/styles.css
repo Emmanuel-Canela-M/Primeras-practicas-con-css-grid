@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 5px;
+    padding: 5px;
+    background-color: #2C394B;
+}
+
+nav {
+    background-color: #334756;
+    border-radius: 8px;
+    padding: 10px;
+
+    ul {
+        list-style: none;
+        display: inline-block;
+    }
+
+    li {
+        display: inline-block;
+        margin: 1px;
+        background-color: #1E5F74;
+        padding: 3px;
+        border-radius: 4px;
+    }
+
+    li:hover {
+        background-color: #C060A1;
+        transition: 0.3s;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-size: 2rem;
+    }
+}

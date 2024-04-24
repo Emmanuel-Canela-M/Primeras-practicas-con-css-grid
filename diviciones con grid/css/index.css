@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    max-width: 960px;
+    margin: 100px auto;
+    background-color: rgb(103, 103, 143);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    /* justify-items:center ; */
+    align-items:normal;
+}
+
+.parte {
+    font-size: 1.5rem;
+    color: white;
+    background-color: #5faab1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    border-radius: 8px;
+    padding: 1rem;
+    border: 2px solid rgb(230, 198, 198);
+}
+
+.parte:hover {
+    color: black;
+}
